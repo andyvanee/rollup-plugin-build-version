@@ -4,7 +4,7 @@ const defaultFormatter = () => {
     return Date.now()
 }
 
-export const version = (opts = {}) => {
+const version = (opts = {}) => {
     const { path = "./build-version.txt", formatter = null } = opts
 
     const fmt = formatter ? formatter : defaultFormatter
