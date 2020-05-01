@@ -1,4 +1,6 @@
-import fs from "fs"
+"use strict"
+
+var fs = require("fs")
 
 const defaultFormatter = () => {
     return Date.now()
@@ -27,4 +29,4 @@ const version = (opts = {}) => {
     }
 }
 
-export default version
+module.exports = version

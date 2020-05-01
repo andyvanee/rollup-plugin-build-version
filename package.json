@@ -2,8 +2,7 @@
     "name": "rollup-plugin-build-version",
     "version": "1.0.0",
     "description": "Write a version file each time rollup runs",
-    "main": "src/index.mjs",
-    "type": "module",
+    "main": "src/index.js",
     "license": "MIT",
     "peerDependencies": {
         "rollup": ">=1.15.0 <3"
